@@ -32,10 +32,10 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
-    --background-image-sp: url('/assets/sp.jpg');
-    --background-image-rj: url('/assets/rj.jpg');
-    --background-image-stc: url('/assets/stc3.jpg');
-    --background-image-airplane: url('/assets/airplane.jpg');
+    --background-image-sp: url('./assets/sp.jpg');
+    --background-image-rj: url('./assets/rj.jpg');
+    --background-image-stc: url('./assets/stc3.jpg');
+    --background-image-airplane: url('./assets/airplane.jpg');
   }
 }
 @layer base {
