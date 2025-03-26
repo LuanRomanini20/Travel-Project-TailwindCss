@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Travel - viagens</title>
+</head>
+<body>
+     <!--HEADER-->
+
+     <header class="shadow-2xs">
+        <div class="w-full bg-gray-800 h-[100px] flex items-center justify-between">
+            <div class="w-full p-4 flex flex-row">
+                <h1 class="select-none text-sky-300 font-bold text-4xl">Travel</h1>
+                <p class="text-white flex justify-center justify-items-normal p-1">in Brazil</p>
+            </div>
+
+            <div class="flex m-4 gap-4">
+                <div class="flex md:hidden">
+                    <i id="btn-open" onclick="toggleMenu()" class="fa fa-bars text-white" style="font-size: 20px;"></i>
+                </div>
+                <a href="#" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Sobre</a>
+                <a href="travels.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Viagens</a>
+                <a href="#" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Contato</a>
+            </div>
+        </div>
+    </header>
+    <!--FOOTER-->
+    <footer>
+        <div class="flex items-center justify-center">
+            <h1 class="font-bold p-4">© Direitos reservados 2025 | @Travel in Brazil</h1>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
