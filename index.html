@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Travel - encontre sua viagem perfeita !</title>
 </head>
@@ -22,9 +23,36 @@
                 <div class="flex md:hidden">
                     <i id="btn-open" onclick="toggleMenu()" class="fa fa-bars text-white" style="font-size: 20px;"></i>
                 </div>
-                <a href="#" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Sobre</a>
-                <a href="travels.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Viagens</a>
-                <a href="#" class="text-white hover:text-blue-200 duration-200 hidden md:flex">Contato</a>
+                <a href="index.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <p>Home</p>
+                    </div>
+                </a>
+                <a href="travels.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            travel
+                            </span>
+                    </div>
+                    <div>
+                        <p>Viagens</p>
+                    </div>
+                </a>
+                <a href="contact.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            phone
+                            </span>
+                    </div>
+                    <div>
+                        <p>Contato</p>
+                    </div>
+                </a>
             </div>
         </div>
     </header>
@@ -35,7 +63,7 @@
             <div class="md:hidden">
                 <div id="menu" class="absolute z-50 w-full hidden flex-col items-center px-3 py-2 bg-gray-800 shadow-xl">
                     <nav class="flex flex-col mt-1 gap-5 w-full">
-                        <a href="#" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Sobre</a>
+                        <a href="#" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Home</a>
                         <a href="travels.html" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Viagens</a>
                         <a href="#" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Contatos</a>
                     </nav>
