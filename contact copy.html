@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Travel - viagens</title>
+</head>
+<body>
+     <!--HEADER-->
+
+     <header class="shadow-2xs">
+        <div class="w-full bg-gray-800 h-[100px] flex items-center justify-between">
+            <div class="w-full p-4 flex flex-row">
+                <h1 class="select-none text-sky-300 font-bold text-4xl">Travel</h1>
+                <p class="text-white flex justify-center justify-items-normal p-1">in Brazil</p>
+            </div>
+
+            <div class="flex m-4 gap-4">
+                <div class="flex md:hidden">
+                    <i id="btn-open" onclick="toggleMenu()" class="fa fa-bars text-white" style="font-size: 20px;"></i>
+                </div>
+                <a href="index.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            home
+                            </span>
+                    </div>
+                    <div class="flex items-center justify-center">
+                        <p>Home</p>
+                    </div>
+                </a>
+                <a href="travels.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            travel
+                            </span>
+                    </div>
+                    <div>
+                        <p>Viagens</p>
+                    </div>
+                </a>
+                <a href="contact.html" class="text-white hover:text-blue-200 duration-200 hidden md:flex">
+                    <div class="pr-2 flex justify-center items-center">
+                        <span class="material-symbols-outlined">
+                            phone
+                            </span>
+                    </div>
+                    <div>
+                        <p>Contato</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="w-full flex flex-col pb-4">
+        <div class="md:hidden">
+            <div id="menu" class="absolute z-50 w-full hidden flex-col items-center px-3 py-2 bg-gray-800 shadow-xl">
+                <nav class="flex flex-col mt-1 gap-5 w-full">
+                    <a href="index.html" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Home</a>
+                    <a href="travels.html" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Viagens</a>
+                    <a href="contact.html" class="text-gray-300 font-medium hover:text-black hover:bg-gray-100 p-3 rounded-lg duration-300">Contatos</a>
+                </nav>
+            </div>
+        </div> 
+    </main>
+
+
+
+
+    <nav>
+        <section class="">
+            <h1 class="font-bold flex items-center justify-center p-4">Conte-nos seu problema?</h1>
+
+
+            <div class="flex flex-col gap-4 w-full">
+
+                <section class="flex justify-around gap-2">
+                    <div class="p-4">
+                        <div>
+                            <h1>Tecnico</h1>
+                        </div>
+        
+                        <div>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-[280px] min-h-[400px]  bg-gray-300">
+                        <h1>TesteSolution</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fugiat esse cumque vero ex, ad nihil deleniti a, eligendi obcaecati eveniet magnam deserunt libero aliquam neque consectetur voluptatum! Assumenda, doloremque!Lorem</p>
+                    </div>
+                </section>
+
+
+                <section class="flex justify-around gap-2">
+                    <div class="flex flex-col p-4">
+                        <div>
+                            <h1>Tecnico</h1>
+                        </div>
+        
+                        <div>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                            <p>1teste123</p>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-[280px] min-h-[400px]  bg-gray-300">
+                        <h1>TesteSolution</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fugiat esse cumque vero ex, ad nihil deleniti a, eligendi obcaecati eveniet magnam deserunt libero aliquam neque consectetur voluptatum! Assumenda, doloremque!Lorem</p>
+                    </div>
+                </section>
+                
+            </div>
+
+            
+            
+
+        </section>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <!--FOOTER-->
+    <footer>
+        <div class="flex items-center justify-center">
+            <h1 class="font-bold p-4">© Direitos reservados 2025 | @Travel in Brazil</h1>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
